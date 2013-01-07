@@ -1,0 +1,8 @@
+AddHandler server-parsed .html
+
+#Options +FollowSymlinks
+
+#RewriteEngine  on
+#RewriteBase    /
+#RewriteRule    index.php/contact contact  [R]
+

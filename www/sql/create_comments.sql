@@ -1,0 +1,9 @@
+CREATE TABLE `comments` (
+  `id` BIGINT(20) NOT NULL AUTO_INCREMENT,
+  `created_on` DATETIME DEFAULT NULL,
+  `content` MEDIUMTEXT,
+  `created_by` VARCHAR(1000) NOT NULL DEFAULT 'iitr.sourabh@gmail.com',
+  `article_id` BIGINT(20) NOT NULL,
+  `hidden` TINYINT(4) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM AUTO_INCREMENT=25 DEFAULT CHARSET=latin1

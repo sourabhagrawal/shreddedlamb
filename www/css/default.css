@@ -1,0 +1,445 @@
+@CHARSET "UTF-8";
+
+body{
+	background : #000;
+	background-clip : border-box;
+	background-size : 100% auto;
+	font-family : "Trebuchet MS", Trebuchet, Verdana, Sans-serif;
+	color : #ccc;
+	margin : 0;
+	font-size : 14px;
+}
+
+a {
+    color: #9AD;
+    text-decoration : none;
+    cursor : hand;
+    cursor : pointer;
+}
+
+h1, img, a, form {
+	margin : 0;
+	padding : 0;
+	border : 0 none;
+}
+
+h2{
+	color: #AD9;
+    font-size: 2.6em;
+    font-weight : normal;
+    line-height: 1.3em;
+    margin: 0 0 12px;
+    padding: 0;	
+}
+
+h2 a{
+	color : inherit;
+}
+
+h3{
+	font-size : 1.1em;
+	padding: 0;	
+	margin : 0;
+}
+
+h4{
+	color: #AD9;
+	margin : 0 0 5px;	
+	padding : 0;
+	line-height: 1.3em;
+}
+
+strong, b{
+	color : #fafafa;	
+}
+
+#main{
+	margin : 0 0 0 0px;
+	overflow : hidden;
+	display : block;
+	max-width : 1000px;
+}
+
+#content {
+	display : block;
+	float : left;
+	text-align : left;
+	width : 740px;
+	margin-left : 70px;
+}
+
+#sidebar{
+	width : 140px;
+	display : block;
+	float : left;
+	text-align : right;
+	verticle-align : baseline;
+	font-size : 0.85em;
+}
+
+.logo{
+	
+}
+
+.logo h1 a img {
+	margin : 0 0 35px 0;
+}
+
+.menu{
+	list-style-type : none;
+	text-transform : uppercase;
+	margin-bottom : 35px;
+}
+
+.menu li{
+	list-style : none outside none;
+	padding : 6px 0;
+}
+
+.menua{
+	color : #999999;
+}
+
+.menua:hover{
+	color : #ffffff;	
+}
+
+.activemenu{
+	font-weight : bold;
+	color : #ffffff;
+}
+
+.left-box{
+	margin : 20px 0 20px 20px;
+	font-size : 1.2em;
+	line-height : 1.4em;
+	text-align : left;
+}
+
+.left-box ul{
+	list-style-type : none;
+	padding : 0;
+	border : 0 none;
+}
+
+.left-box li{
+	list-style : none outside none;
+	overflow : hidden;
+}
+
+.left-box h3{
+	color : #999;	
+	letter-spacing : 2px;
+}
+
+.bullets{
+	font-size:0.9em;
+	width : 10px;
+	float : left;
+	display : block;
+	overflow : hidden;
+	padding-top : 0px;
+	color: #999;
+}
+
+.bulleted{
+	display : block;
+	overflow : hidden;
+	padding-left : 5px;
+	font-size:0.85em;
+}
+
+.todo ul{
+	margin : 0;
+	padding : 0;
+	border : 0 none;
+}
+
+.todo li{
+	margin-top : 0px;	
+	padding : 0;
+}
+
+.articles{
+	background : url("/images/sep.jpg") repeat-x scroll right bottom transparent;
+	padding : 0px 0 8px 0;
+}
+
+.article{
+	text-align : left;
+	background: url("/images/sep.jpg") repeat-x scroll right bottom transparent;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    margin: 0 0 70px;
+    padding: 0px 0 12px;
+}
+
+.articlesingle{
+	text-align : left;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    margin: 0 0 20px;
+    padding: 0px 0 12px;
+}
+
+.article img {
+	border : medium none;
+	border-radius : 4px;
+	box-shadow : 0 0 6px #111111;
+	text-decoration : none;
+}
+
+.article p.big, .articlesingle p.big {
+    color: #999999;
+    font-size: 1.25em;
+    font-style: italic;
+    line-height: 1.5em;
+    padding: 6px 0;
+}
+
+.articleInfo{
+	display:block;
+	overflow : hidden;
+	color: #777;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    padding: 0 0 25px;	
+}
+
+.article-meta{
+	display:block;
+	overflow : hidden;
+	float : left;	
+}
+
+.article-content{
+	display:block;
+	overflow : hidden;
+}
+
+.comments{
+	width : 400px;
+    display : block;
+    overflow : hidden;
+}
+
+.comment{
+	text-align : left;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    margin: 0 0 10px;
+    padding: 10px 0 0px;
+    border-top : 1px #333 dotted ;
+}
+
+.commentInfo{
+	color: #777;
+    font-size: 0.8em;
+    line-height: 1.4em;
+    padding: 0 0 10px;
+}
+
+.copyright{
+	color : #555555;
+	font-size : 0.7em;
+	line-height : 1.8em;
+	padding : 15px 0 15px;
+	text-align:left;
+}
+
+.copyright a{
+	color : #aaaaaa;
+	font-weight : bold;
+}
+
+.header {
+	display : block; 
+	overflow : hidden; 
+	border : 1px solid #333; 
+	margin : 10px 80px 30px 80px; 
+	padding : 6px;
+	line-height : 1.1em;
+}
+
+.header-title{
+	display:block; 
+	font-size : 1.65em;
+	font-weight : bold;
+	letter-spacing : 0.2em;
+	text-transform : uppercase;
+	margin : 5px 0 10px;
+	color: #ccc;
+}
+
+.header-tagline{
+	text-transform : uppercase;
+	color: #777;
+	display:block; 
+	font-size : 0.7em;
+	letter-spacing : .17em;
+}
+
+.header-tagline a {
+    color: inherit;
+    border : none;
+    text-decoration : none;
+    font-size : 1.2em;
+}
+
+.header-inner{
+	border : 1px solid #333; 
+	padding : 25px;
+}
+
+.tagline {
+	display:block;
+	padding-top : 21px;
+}
+
+.loginbox{
+	display:block;	
+	overflow: hidden;
+}
+
+.loginform input{
+	width: 140px;
+	background : #eee;
+}
+
+.loginform button{
+	margin-top : 5px;
+	width: 70px;
+}
+
+.loginform a{
+	color : #999;
+    padding: 0px 0px 0px 6px;
+}
+
+.loggedin-details{
+	display-block;
+	overflow:hidden;
+	padding : 5px 20px 5px 20px;
+	text-align : right;
+	color: #ccc;
+	background-color : #036;
+	border-bottom : 1px solid #024;
+	font-size : 0.9em;
+}
+
+.loggedin-details a{
+	color : #9CF;	
+}
+
+form{
+	font-size : 0.9em;	
+}
+
+.contactform input, .contactform textarea{
+	width : 250px;	
+}
+
+.contactform textarea{
+	height : 250px;	
+}
+
+.formrow{
+	margin-bottom : 5px;
+	display:block;		
+}
+
+.formlabel{
+	width : 80px;
+	display : block;
+	float:left;
+	color : #999;
+}
+
+#article-form{
+	padding-bottom : 8px;
+	background : url("/images/sep.jpg") repeat-x scroll right bottom transparent;
+	margin-bottom : 44px;
+}
+
+#article-form input, #article-form textarea{
+	width : 550px;
+}
+
+#article-form textarea{
+	height : 350px;	
+}
+
+#comment-form{
+	padding-bottom : 8px;
+	margin-bottom : 10px;
+}
+
+#comment-form textarea{
+	width : 400px;
+	height : 70px;	
+}
+
+.archives-month-heading{
+	cursor : hand;
+	cursor : pointer;
+}
+
+.archives-month{
+	display : none;
+	margin-left : 15px;
+}
+
+.archives-month-heading-text{
+	color: #9AD;
+}
+
+.page-arrow{
+	font-size : 5em; 
+}
+
+.page-arrow a{
+	color : inherit; 
+}
+
+.page-arrow-disabled{
+	color : #444;
+}
+
+.autocomplete-list{
+	background:#fff; 
+	position:relative; 	
+	color : #444;
+	margin-left : 2px;
+	list-style:none;
+}
+
+.autocomplete-list li{
+	padding : 2px 5px 2px 5px;
+	cursor : hand;
+	cursor : pointer;
+}
+
+.autocomplete-list li:hover{
+	background : #ccc;
+}
+
+.autocomplete-list li b{
+	color : #000;
+}
+
+.dsq-comment-text{
+	font-size : 1em;	
+}
+
+.quote-box{
+	max-width : 350px;
+	margin-bottom : 10px;
+}
+
+.quote-body{
+	font-style:italic
+}
+
+.quote-author{
+	text-align:right
+}
